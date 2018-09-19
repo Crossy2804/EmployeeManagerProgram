@@ -35,7 +35,7 @@ public class Manager extends Employee {
         sb.append(name + " ");
         sb.append("\n"); //newline char
         for (Employee e : employees){
-            sb.append("Employee: " + e.name);
+            sb.append("Employee: " + e.employeeNum + " " + e.name);
             sb.append("\n"); //newline char
         }
         return sb.toString();

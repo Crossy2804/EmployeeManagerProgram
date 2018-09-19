@@ -20,8 +20,12 @@ public class EmployeeMangerProgram {
         
         Employee emp2 = new Employee("Georgia", 274);
         Employee emp3 = new Employee("Tara", 753);
+        Employee emp4 = new Employee("Ian", 172);
+        Employee emp5 = new Employee("Julian", 188);
         emp1.addEmployee(emp2);
         emp1.addEmployee(emp3);
+        emp1.addEmployee(emp4);
+        emp1.addEmployee(emp5);
         System.out.println(emp1.printDetails());
     }
     
