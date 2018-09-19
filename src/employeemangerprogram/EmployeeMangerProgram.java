@@ -15,8 +15,14 @@ public class EmployeeMangerProgram {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Employee empl = new Employee("Sophie", 428);
-        System.out.println(empl.printDetails());
+        Manager emp1 = new Manager("Sophie", 428);
+        //System.out.println(emp1.printDetails());
+        
+        Employee emp2 = new Employee("Georgia", 274);
+        Employee emp3 = new Employee("Tara", 753);
+        emp1.addEmployee(emp2);
+        emp1.addEmployee(emp3);
+        System.out.println(emp1.printDetails());
     }
     
 }
